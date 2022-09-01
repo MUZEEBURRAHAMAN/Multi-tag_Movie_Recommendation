@@ -74,4 +74,5 @@ dependencies:
     - watchdog==2.1.6
     - widgetsnbextension==3.5.2
     - wordcloud==1.8.1
+    - scipy
 prefix: /home/raphael/anaconda3/envs/movie_recommendation_env
