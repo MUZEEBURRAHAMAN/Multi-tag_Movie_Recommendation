@@ -8,6 +8,12 @@ import constants as const
 st.set_page_config(page_title="Recommender system", layout="wide")
 
 
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 # add styling
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
